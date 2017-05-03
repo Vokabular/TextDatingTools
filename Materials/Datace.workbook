@@ -1,0 +1,31 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- WPF
+---
+
+# Datace historických dokumentů
+
+U historických dokumentů, zejméma rukopisů a raněnovověkých tisků, často není možné přesně určit období vzniku dochovaného pramene. V takových případech se používá volnější formace datace, která označuje určité časové rozmezí.
+
+V českém prostředí se ustálily pro tyto případy formulace jako například *století*, *polovina*, *čtvrtina*, *přelom*, *začátek*, *konec* atp.
+
+Pokud slovní popis datace obsahuje konkrétní rok, převod takového zápisu na číslo (typu *int*) je velmi jednoduché.
+
+```csharp
+string slovniPopis = "1450"; 
+int rok;
+int.TryParse(slovniPopis, out rok);
+Console.WriteLine(rok);
+```
+
+Pokud slovní popis datace obsahuje kromě samotného vročení doplňující údaje (např. *kolem roku 1450*), jednoduchý převod datace na číselnou hodnotu není možný.
+
+```csharp
+slovniPopis = "kolem roku 1450"; 
+int rok;
+int.TryParse(slovniPopis, out rok);
+Console.WriteLine(rok);
+```
+
+V takovém případě je potřeba od sebe oddělit jednotlivé části slovního popisu a zpracovávat je samostatně.
