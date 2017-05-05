@@ -1,5 +1,6 @@
 ﻿using System;
 using Daliboris.Texty.Evidence.Rozhrani;
+using System.Globalization;
 
 namespace Daliboris.Texty.Evidence {
 	/// <summary>
@@ -7,7 +8,7 @@ namespace Daliboris.Texty.Evidence {
 	/// </summary>
 	public class Datace : IComparable, ICloneable, IDatace, IEquatable<Datace>
 	{
-		/*
+        /*
 
 						private const string csOtaznik = "(?)";
 						private const string csOkoloRoku = "okolo roku";
@@ -24,8 +25,10 @@ namespace Daliboris.Texty.Evidence {
 
 		*/
 
+	    // TODO: přidat parametr "locale" (aby bylo možné volit formát data)
 		public Datace() { }
 
+	    // TODO: přidat parametr "locale" (aby bylo možné volit formát data)
 		public Datace(string strSlovniPopis) {
 			SlovniPopis = strSlovniPopis;
 		}
@@ -162,7 +165,8 @@ namespace Daliboris.Texty.Evidence {
 			if (String.IsNullOrEmpty(sSlovniPopis))
 				return;
 
-            var analyzator = new AnalyzatorDatace();
+		    var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+		    var analyzator = new AnalyzatorDatace(locale);
             Datace dt = analyzator.AnalyzovatDataci(sSlovniPopis);
 			Stoleti = dt.Stoleti;
 			PolovinaStoleti = dt.PolovinaStoleti;

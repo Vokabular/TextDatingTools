@@ -69,7 +69,7 @@ namespace Daliboris.Texty.Evidence
             mgdcTexty.Add(csPost, csPost);
         }
 
-        protected static DateTimeFormatInfo DefaultLocale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+        protected static DateTimeFormatInfo DefaultLocale = CultureInfo.InstalledUICulture.DateTimeFormat;
         public DateTimeFormatInfo Locale { get; }
 
         public AnalyzatorDatace(DateTimeFormatInfo locale = null)
