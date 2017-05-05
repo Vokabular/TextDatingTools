@@ -6,8 +6,10 @@ using Daliboris.Texty.Evidence.Rozhrani;
 
 namespace Daliboris.Texty.Evidence
 {
+    // TODO: z této (už ne statické?) třídy by měl dědit specializovaný český a latinský analyzátor
     public static class AnalyzatorDatace
     {
+        // TODO: konstanty by měly ležet mimo kód, aby se dala analyzovat (nejdřív) latina
         private const int cintZacatekKonec = 15;
         private const int cintStoLet = 100;
         private const int cintPrelom = 10;
@@ -472,6 +474,7 @@ namespace Daliboris.Texty.Evidence
             {
                 int iRok;
                 DateTime date;
+                // TODO: formát data by měl být volitelný (abychom mohli explicitně zvolit český pod anglickými Windows)
                 if (DateTime.TryParse(sPopis, out date))
                 {
                     iRok = date.Year;
@@ -481,6 +484,7 @@ namespace Daliboris.Texty.Evidence
                 {
                     UrciDataciNaZakladeRoku(dt, iRok);
                 }
+                // TODO: upozorňovat na neplatné údaje pomocí výjimek, které se na vhodné úrovni zachytí a vytvoří se popis, co je v dataci špatné nebo neznámé
             }
             return dt;
 
@@ -629,7 +633,7 @@ namespace Daliboris.Texty.Evidence
             return iTemp;
         }
 
-
+        // TODO: VS píše, že se tato funkce nepoužívá -- už nebo ještě?
         private static void RozebratUpresneniVPopisu(ref string sPopis, string sUpresneni, ref Datace dtDatace)
         {
             if (sPopis.Contains(sUpresneni))
