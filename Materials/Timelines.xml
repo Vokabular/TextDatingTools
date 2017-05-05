@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline>
+	<series name="Století">
+		<event name="14. století" start="1301-01-01" end="1400-12-31" />
+		<event name="15. století" start="1401-01-01" end="1500-12-31" />
+	</series>
+	<series name="Polovina">
+		<event name="1. polovina" start="1301-01-01" end="1350-12-31" />
+		<event name="2. polovina" start="1351-01-01" end="1400-12-31" />
+	</series>
+	<series name="Třetina">
+		<event name="1. třetina" start="1301-01-01" end="1334-04-30" />
+		<event name="2. třetina" start="1334-05-01" end="1367-08-31" />
+		<event name="3. třetina" start="1367-09-01" end="1400-12-31" />
+	</series>
+	<series name="Čtvrtina">
+		<event name="1. čtvrtina" start="1301-01-01" end="1325-12-31" />
+		<event name="2. čtvrtina" start="1326-01-01" end="1350-12-31" />
+		<event name="3. čtvrtina" start="1351-01-01" end="1375-12-31" />
+		<event name="4. čtvrtina" start="1376-01-01" end="1400-12-31" />
+	</series>
+	<series name="Desetiletí">
+		<event name="10. léta" start="1310-01-01" end="1319-12-31" />
+		<event name="20. léta" start="1320-01-01" end="1329-12-31" />
+		<event name="30. léta" start="1330-01-01" end="1339-12-31" />
+		<event name="40. léta" start="1340-01-01" end="1349-12-31" />
+		<event name="50. léta" start="1350-01-01" end="1359-12-31" />
+		<event name="60. léta" start="1360-01-01" end="1369-12-31" />
+		<event name="70. léta" start="1370-01-01" end="1379-12-31" />
+		<event name="80. léta" start="1380-01-01" end="1389-12-31" />
+		<event name="90. léta" start="1390-01-01" end="1399-12-31" />
+	</series>
+	<series name="Předěly">
+		<event name="začátek 14. století" start="1301-01-01" end="1315-12-31" />
+		<event name="konec 14. století" start="1385-01-01" end="1400-12-31" />
+		<event name="okolo roku 1420" start="1417-01-01" end="1423-12-31" />
+		<event name="po roce 1423" start="1423-01-01" end="1426-12-31" />
+		<event name="přelom 13. a 14. století" start="1290-01-01" end="1310-12-31" />
+	</series>
+</timeline>
