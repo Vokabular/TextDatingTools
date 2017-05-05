@@ -1,13 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 using Daliboris.Texty.Evidence.Rozhrani;
 
 namespace Daliboris.Texty.Evidence
 {
-    // TODO: z této (už ne statické?) třídy by měl dědit specializovaný český a latinský analyzátor
-    public static class AnalyzatorDatace
+    // TODO: z této třídy by měl dědit specializovaný český a latinský analyzátor
+    public class AnalyzatorDatace
     {
         // TODO: konstanty by měly ležet mimo kód, aby se dala analyzovat (nejdřív) latina
         private const int cintZacatekKonec = 15;
@@ -68,7 +69,18 @@ namespace Daliboris.Texty.Evidence
             mgdcTexty.Add(csPost, csPost);
         }
 
-        public static string UrcitObdobiVzniku(IDatace mdtcDatace)
+        protected static DateTimeFormatInfo DefaultLocale = CultureInfo.InstalledUICulture.DateTimeFormat;
+        public DateTimeFormatInfo Locale { get; }
+
+        public AnalyzatorDatace(DateTimeFormatInfo locale = null)
+        {
+            // nabízí mi to syntaktickou zkratku "Lokalizace = lokalizace ?? VychoziLokalizace", ale ta pro mě není čitelná
+            Locale = locale;
+            if (Locale == null)
+                Locale = DefaultLocale;
+        }
+
+        public string UrcitObdobiVzniku(IDatace mdtcDatace)
         {
             /*
              * Zvolené řešení: (1. století začíná 1. 1. 1 (není 1. 1. 0)
@@ -200,13 +212,13 @@ namespace Daliboris.Texty.Evidence
         }
 
 
-        public static Datace AnalyzovatDataci(string sSlovniPopis)
+        public Datace AnalyzovatDataci(string sSlovniPopis)
         {
             //return AnalyzujDataci(sSlovniPopis);
             return AnalyzujDataci2(sSlovniPopis);
         }
 
-        private static Datace AnalyzujDataci2(string sSlovniPopis)
+        private Datace AnalyzujDataci2(string sSlovniPopis)
         {
             char[] chOddelovace = new char[] { '/', '–', ',' };
             Datace dt = new Datace();
@@ -474,8 +486,7 @@ namespace Daliboris.Texty.Evidence
             {
                 int iRok;
                 DateTime date;
-                // TODO: formát data by měl být volitelný (abychom mohli explicitně zvolit český pod anglickými Windows)
-                if (DateTime.TryParse(sPopis, out date))
+                if (DateTime.TryParse(sPopis, Locale, DateTimeStyles.None, out date))
                 {
                     iRok = date.Year;
                     UrciDataciNaZakladeRoku(dt, iRok);

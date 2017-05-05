@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices.ComTypes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Globalization;
 
 namespace Daliboris.Texty.Evidence.Objekty.UnitTests
 {
@@ -15,6 +16,9 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             set { _context = value; }
         }
 
+        // TODO: vytvořit nový testovací soubor s okrajovými případy (1398, 1399, 1400, 1401, 1402) a zároveň pouze jednou ukázkou pro každý typ údaje
+        // TODO: původní kompletní testovací soubor (generovaný z reálných dat) ponechat a občas aktualizovat
+        // TODO: vytvořit testy pro oba soubory, ale samozřejmě neduplikovat kód, jenom zobecnit současný test a volat ho s různými parametry
         [TestMethod()]
         [DeploymentItem("TestData\\AnalyzatorDataceTestData.xml")]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
@@ -91,7 +95,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             string message = String.Format("{0}: {1}", nazev, slovniPopis);
 
             Datace datace = new Datace(slovniPopis);
-            string obdobi = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            // TODO: deklarovat lokalizaci ve vstupním souboru a přebírat ji
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
+
+            string obdobi = analyzator.UrcitObdobiVzniku(datace);
 
             Assert.AreEqual(obdobiVzniku, obdobi, message);
 
@@ -111,7 +119,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             Assert.AreEqual(1, datace.PolovinaStoleti);
             Assert.AreEqual(0, datace.RelativniChronologie);
 
-            string obdobi = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
+
+            string obdobi = analyzator.UrcitObdobiVzniku(datace);
             Assert.AreEqual("1301–1350", obdobi);
 
 
@@ -173,9 +184,12 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "polovina 14. století";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
 
-            Assert.AreEqual("1351–1400", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1351–1400", obdobiVzniku);
         }
 
         [TestMethod]
@@ -183,9 +197,12 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "konec 13. století";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
 
-            Assert.AreEqual("1251–1300", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1251–1300", obdobiVzniku);
         }
 
         [TestMethod]
@@ -193,9 +210,12 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "okolo roku 1450";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
 
-            Assert.AreEqual("1451–1500", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1451–1500", obdobiVzniku);
         }
 
         [TestMethod]
@@ -203,9 +223,12 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "1622 a 1624";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
 
-            Assert.AreEqual("1601–1650", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1601–1650", obdobiVzniku);
         }
 
         [TestMethod]
@@ -213,9 +236,12 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "14. a 15. století";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
 
-            Assert.AreEqual("1451–1500", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1451–1500", obdobiVzniku);
         }
 
         [TestMethod]
@@ -223,9 +249,12 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "9. 4. 1821 a 16. 4. 1821";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+            var analyzator = new AnalyzatorDatace(locale);
 
-            Assert.AreEqual("1801–1850", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1801–1850", obdobiVzniku);
         }
     }
 }
