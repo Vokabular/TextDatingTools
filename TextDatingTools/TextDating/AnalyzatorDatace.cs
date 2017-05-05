@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 using Daliboris.Texty.Evidence.Rozhrani;
@@ -66,6 +67,17 @@ namespace Daliboris.Texty.Evidence
             mgdcTexty.Add(csCtvrtina, csCtvrtina);
             mgdcTexty.Add(csAnte, csAnte);
             mgdcTexty.Add(csPost, csPost);
+        }
+
+        protected static DateTimeFormatInfo DefaultLocale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
+        public DateTimeFormatInfo Locale { get; }
+
+        public AnalyzatorDatace(DateTimeFormatInfo locale = null)
+        {
+            // nabízí mi to syntaktickou zkratku "Lokalizace = lokalizace ?? VychoziLokalizace", ale ta pro mě není čitelná
+            Locale = locale;
+            if (Locale == null)
+                Locale = DefaultLocale;
         }
 
         public string UrcitObdobiVzniku(IDatace mdtcDatace)
@@ -474,8 +486,7 @@ namespace Daliboris.Texty.Evidence
             {
                 int iRok;
                 DateTime date;
-                // TODO: formát data by měl být volitelný (abychom mohli explicitně zvolit český pod anglickými Windows)
-                if (DateTime.TryParse(sPopis, out date))
+                if (DateTime.TryParse(sPopis, Locale, DateTimeStyles.None, out date))
                 {
                     iRok = date.Year;
                     UrciDataciNaZakladeRoku(dt, iRok);
