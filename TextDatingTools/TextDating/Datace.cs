@@ -161,7 +161,9 @@ namespace Daliboris.Texty.Evidence {
 
 			if (String.IsNullOrEmpty(sSlovniPopis))
 				return;
-			Datace dt = AnalyzatorDatace.AnalyzovatDataci(sSlovniPopis);
+
+            var analyzator = new AnalyzatorDatace();
+            Datace dt = analyzator.AnalyzovatDataci(sSlovniPopis);
 			Stoleti = dt.Stoleti;
 			PolovinaStoleti = dt.PolovinaStoleti;
 			Desetileti = dt.Desetileti;

@@ -91,7 +91,9 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             string message = String.Format("{0}: {1}", nazev, slovniPopis);
 
             Datace datace = new Datace(slovniPopis);
-            string obdobi = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
+
+            string obdobi = analyzator.UrcitObdobiVzniku(datace);
 
             Assert.AreEqual(obdobiVzniku, obdobi, message);
 
@@ -111,7 +113,9 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             Assert.AreEqual(1, datace.PolovinaStoleti);
             Assert.AreEqual(0, datace.RelativniChronologie);
 
-            string obdobi = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
+
+            string obdobi = analyzator.UrcitObdobiVzniku(datace);
             Assert.AreEqual("1301–1350", obdobi);
 
 
@@ -173,9 +177,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "polovina 14. století";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
 
-            Assert.AreEqual("1351–1400", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1351–1400", obdobiVzniku);
         }
 
         [TestMethod]
@@ -183,9 +189,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "konec 13. století";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
 
-            Assert.AreEqual("1251–1300", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1251–1300", obdobiVzniku);
         }
 
         [TestMethod]
@@ -193,9 +201,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "okolo roku 1450";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
 
-            Assert.AreEqual("1451–1500", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1451–1500", obdobiVzniku);
         }
 
         [TestMethod]
@@ -203,9 +213,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "1622 a 1624";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
 
-            Assert.AreEqual("1601–1650", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1601–1650", obdobiVzniku);
         }
 
         [TestMethod]
@@ -213,9 +225,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "14. a 15. století";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
 
-            Assert.AreEqual("1451–1500", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1451–1500", obdobiVzniku);
         }
 
         [TestMethod]
@@ -223,9 +237,11 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string popis = "9. 4. 1821 a 16. 4. 1821";
             Datace datace = new Datace(popis);
-            string obdobiVznku = AnalyzatorDatace.UrcitObdobiVzniku(datace);
+            var analyzator = new AnalyzatorDatace();
 
-            Assert.AreEqual("1801–1850", obdobiVznku);
+            string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
+
+            Assert.AreEqual("1801–1850", obdobiVzniku);
         }
     }
 }
