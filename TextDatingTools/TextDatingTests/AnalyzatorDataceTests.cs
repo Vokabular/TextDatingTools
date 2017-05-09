@@ -61,8 +61,8 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string message = String.Format("{0}: {1}", nazev, slovniPopis);
 
-
-            Datace datace = new Datace(slovniPopis);
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
+            var datace = new Datace(slovniPopis, cultureInfo);
             Assert.AreEqual(nePredRokem, datace.NePredRokem, message);
             Assert.AreEqual(nePoRoce, datace.NePoRoce, message);
             Assert.AreEqual(rok, datace.Rok, message);
@@ -71,8 +71,6 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             Assert.AreEqual(polovinaStoleti, datace.PolovinaStoleti, message);
             Assert.AreEqual(relativniChronologie, datace.RelativniChronologie, message);
             Assert.AreEqual(upresneni, datace.Upresneni, message);
-
-
         }
 
         [TestMethod()]
@@ -94,10 +92,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         {
             string message = String.Format("{0}: {1}", nazev, slovniPopis);
 
-            Datace datace = new Datace(slovniPopis);
             // TODO: deklarovat lokalizaci ve vstupním souboru a přebírat ji
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
+            var datace = new Datace(slovniPopis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobi = analyzator.UrcitObdobiVzniku(datace);
 
@@ -108,8 +106,9 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod()]
         public void AnalyzovatDataci1polovinaStoleti()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "1. polovina 14. století";
-            Datace datace = new Datace(popis);
+            var datace = new Datace(popis, cultureInfo);
 
             Assert.AreEqual(1301, datace.NePredRokem);
             Assert.AreEqual(1350, datace.NePoRoce);
@@ -119,20 +118,18 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             Assert.AreEqual(1, datace.PolovinaStoleti);
             Assert.AreEqual(0, datace.RelativniChronologie);
 
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobi = analyzator.UrcitObdobiVzniku(datace);
             Assert.AreEqual("1301–1350", obdobi);
-
-
         }
 
         [TestMethod()]
         public void AnalyzovatDataciPostAnteTest()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "post 1460, ante 1470";
-            Datace datace = new Datace(popis);
+            var datace = new Datace(popis, cultureInfo);
 
 
             Assert.AreEqual(1460, datace.NePredRokem);
@@ -144,7 +141,7 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             Assert.AreEqual(6, datace.RelativniChronologie);
 
             popis = "post 1416, ante 1450";
-            datace = new Datace(popis);
+            datace = new Datace(popis, cultureInfo);
 
 
             Assert.AreEqual(1416, datace.NePredRokem);
@@ -154,15 +151,14 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
             Assert.AreEqual(5, datace.Desetileti);
             Assert.AreEqual(1, datace.PolovinaStoleti);
             Assert.AreEqual(5, datace.RelativniChronologie);
-
-
         }
 
         [TestMethod()]
         public void AnalyzovatDataciPoRoceTest()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "po roce 1623";
-            Datace datace = new Datace(popis);
+            var datace = new Datace(popis, cultureInfo);
 
             Assert.AreEqual(1623, datace.NePredRokem);
             Assert.AreEqual(1600, datace.Stoleti);
@@ -173,8 +169,9 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatDataciPolovinaNeboStoleti()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "2. polovina 17. století nebo začátek 18. století";
-            Datace datace = new Datace(popis);
+            var datace = new Datace(popis, cultureInfo);
             Assert.AreEqual(1651, datace.NePredRokem);
             Assert.AreEqual(1715, datace.NePoRoce);
         }
@@ -182,10 +179,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatObdobiVznikuPolovinaStoleti()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "polovina 14. století";
-            Datace datace = new Datace(popis);
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var datace = new Datace(popis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
 
@@ -195,10 +192,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatObdobiVznikuKonec13Stoleti()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "konec 13. století";
-            Datace datace = new Datace(popis);
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var datace = new Datace(popis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
 
@@ -208,10 +205,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatObdobiVznikuOkoloRoku1450()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "okolo roku 1450";
-            Datace datace = new Datace(popis);
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var datace = new Datace(popis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
 
@@ -221,10 +218,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatObdobiVzniku1622a1624()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "1622 a 1624";
-            Datace datace = new Datace(popis);
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var datace = new Datace(popis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
 
@@ -234,10 +231,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatObdobi14a15Stoleti()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "14. a 15. století";
-            Datace datace = new Datace(popis);
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var datace = new Datace(popis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
 
@@ -247,10 +244,10 @@ namespace Daliboris.Texty.Evidence.Objekty.UnitTests
         [TestMethod]
         public void AnalyzovatDataci06041821a16041821()
         {
+            var cultureInfo = CultureInfo.GetCultureInfo("cs-CZ");
             string popis = "9. 4. 1821 a 16. 4. 1821";
-            Datace datace = new Datace(popis);
-            var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-            var analyzator = new AnalyzatorDatace(locale);
+            var datace = new Datace(popis, cultureInfo);
+            var analyzator = new AnalyzatorDatace(cultureInfo);
 
             string obdobiVzniku = analyzator.UrcitObdobiVzniku(datace);
 

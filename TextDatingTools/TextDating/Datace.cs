@@ -8,7 +8,7 @@ namespace Daliboris.Texty.Evidence {
 	/// </summary>
 	public class Datace : IComparable, ICloneable, IDatace, IEquatable<Datace>
 	{
-        /*
+		/*
 
 						private const string csOtaznik = "(?)";
 						private const string csOkoloRoku = "okolo roku";
@@ -25,12 +25,23 @@ namespace Daliboris.Texty.Evidence {
 
 		*/
 
-	    // TODO: přidat parametr "locale" (aby bylo možné volit formát data)
-		public Datace() { }
+		protected static CultureInfo DefaultCultureInfo = CultureInfo.InstalledUICulture;
+		public CultureInfo CultureInfo { get; set; }
 
-	    // TODO: přidat parametr "locale" (aby bylo možné volit formát data)
-		public Datace(string strSlovniPopis) {
+		// TODO: vyzkoušet, jestli ještě funguje deserializace z XML, když nemáme "čistý" konstruktor bez parametrů
+		public Datace(CultureInfo cultureInfo = null)
+		{
+			CultureInfo = cultureInfo;
+			if (CultureInfo == null)
+				CultureInfo = DefaultCultureInfo;
+		}
+
+		public Datace(string strSlovniPopis, CultureInfo cultureInfo = null) {
 			SlovniPopis = strSlovniPopis;
+
+			CultureInfo = cultureInfo;
+			if (CultureInfo == null)
+				CultureInfo = DefaultCultureInfo;
 		}
 
 		private string mstrSlovniPopis;
@@ -49,7 +60,7 @@ namespace Daliboris.Texty.Evidence {
 		public int Rok { get; set; }
 		public string Upresneni { get; set; }
 		public int RelativniChronologie { get; set; }
-		
+
 		public int NePredRokem { get; set;}
 		public int NePoRoce {get; set;}
 
@@ -120,7 +131,7 @@ namespace Daliboris.Texty.Evidence {
 		}
 
 		/// <summary>
-		/// Serves as a hash function for a particular type. 
+		/// Serves as a hash function for a particular type.
 		/// </summary>
 		/// <returns>
 		/// A hash code for the current <see cref="T:System.Object"/>.
@@ -165,9 +176,8 @@ namespace Daliboris.Texty.Evidence {
 			if (String.IsNullOrEmpty(sSlovniPopis))
 				return;
 
-		    var locale = CultureInfo.GetCultureInfo("cs-CZ").DateTimeFormat;
-		    var analyzator = new AnalyzatorDatace(locale);
-            Datace dt = analyzator.AnalyzovatDataci(sSlovniPopis);
+			var analyzator = new AnalyzatorDatace(CultureInfo);
+			Datace dt = analyzator.AnalyzovatDataci(sSlovniPopis);
 			Stoleti = dt.Stoleti;
 			PolovinaStoleti = dt.PolovinaStoleti;
 			Desetileti = dt.Desetileti;
@@ -395,8 +405,8 @@ namespace Daliboris.Texty.Evidence {
 			/*
 			menší než 0 => This instance is less than obj.
 			0 => This instance is equal to obj.
-			větší než 0 => This instance is greater than obj. 
-			 * 
+			větší než 0 => This instance is greater than obj.
+			 *
 			 */
 			if (obj == null)
 				return 1;
@@ -430,7 +440,7 @@ namespace Daliboris.Texty.Evidence {
 			//if (this.NePoRoce < dt.NePredRokem)
 			//  return 1;
 			//return -1;
-			
+
 			/*
 			int iVysledekPorovnani = -1;
 			iVysledekPorovnani = this.Stoleti.CompareTo(dt.Stoleti);
