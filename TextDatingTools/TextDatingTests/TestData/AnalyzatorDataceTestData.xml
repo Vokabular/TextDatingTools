@@ -16,7 +16,7 @@
       <SlovniPopis>1. třetina 15. století</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
+      <Desetileti>4</Desetileti>
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1401</NePredRokem>
@@ -535,7 +535,7 @@
    <Datace>
       <SlovniPopis>1650</SlovniPopis>
       <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
+      <PolovinaStoleti>1</PolovinaStoleti>
       <Desetileti>5</Desetileti>
       <Rok>1650</Rok>
       <RelativniChronologie>5</RelativniChronologie>
@@ -563,7 +563,7 @@
       <Desetileti>7</Desetileti>
       <Rok>1775</Rok>
       <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1750</NePredRokem>
+      <NePredRokem>1751</NePredRokem>
       <NePoRoce>1775</NePoRoce>
      <ObdobiVzniku>1751–1800</ObdobiVzniku>
       <Nazev>Lucidar1750.docx</Nazev>
@@ -619,14 +619,14 @@
    </Datace>
    <Datace>
       <SlovniPopis>1800</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
+      <Stoleti>1700</Stoleti>
+      <PolovinaStoleti>2</PolovinaStoleti>
+      <Desetileti>10</Desetileti>
       <Rok>1800</Rok>
       <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1801</NePredRokem>
+      <NePredRokem>1800</NePredRokem>
       <NePoRoce>1800</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
+     <ObdobiVzniku>1751–1800</ObdobiVzniku>
       <Nazev>Smrt_Abelova.docx</Nazev>
    </Datace>
    <Datace>
@@ -669,7 +669,7 @@
    <Datace>
       <SlovniPopis>2. čtvrtina 15. století</SlovniPopis>
       <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
+      <PolovinaStoleti>1</PolovinaStoleti>
       <Desetileti>5</Desetileti>
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
@@ -686,7 +686,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1420</NePredRokem>
-      <NePoRoce>1430</NePoRoce>
+      <NePoRoce>1429</NePoRoce>
      <ObdobiVzniku>1401–1450</ObdobiVzniku>
       <Nazev>KazDzikSct.docx</Nazev>
    </Datace>
@@ -722,7 +722,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1360</NePredRokem>
-      <NePoRoce>1370</NePoRoce>
+      <NePoRoce>1369</NePoRoce>
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>DesHrad.docx</Nazev>
    </Datace>
@@ -734,7 +734,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1560</NePredRokem>
-      <NePoRoce>1580</NePoRoce>
+      <NePoRoce>1579</NePoRoce>
      <ObdobiVzniku>1551–1600</ObdobiVzniku>
       <Nazev>Dopisy_Dorota_z_Krumlova_u_Svateho_Jiri.docx</Nazev>
    </Datace>
@@ -746,7 +746,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1380</NePredRokem>
-      <NePoRoce>1390</NePoRoce>
+      <NePoRoce>1389</NePoRoce>
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>ModlMil_cast.docx</Nazev>
    </Datace>
@@ -765,7 +765,7 @@
       <SlovniPopis>konec 13. století</SlovniPopis>
       <Stoleti>1200</Stoleti>
       <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
+      <Desetileti>10</Desetileti>
       <Rok>0</Rok>
       <Upresneni>konec</Upresneni>
       <RelativniChronologie>9</RelativniChronologie>
@@ -865,6 +865,7 @@
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>AlxB.docx</Nazev>
    </Datace>
+   <!-- TODO: latinu neřešit v rámci češtiny -->
    <Datace>
       <SlovniPopis>post 1416, ante 1450</SlovniPopis>
       <Stoleti>1400</Stoleti>
@@ -873,8 +874,8 @@
       <Rok>1450</Rok>
       <Upresneni>post; ante</Upresneni>
       <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1416</NePredRokem>
-      <NePoRoce>1450</NePoRoce>
+      <NePredRokem>1417</NePredRokem>
+      <NePoRoce>1449</NePoRoce>
      <ObdobiVzniku>1401–1450</ObdobiVzniku>
       <Nazev>KapPraz_H10_270v.docx</Nazev>
    </Datace>
