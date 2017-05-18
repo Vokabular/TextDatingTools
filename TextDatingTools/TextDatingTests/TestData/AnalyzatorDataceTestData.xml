@@ -25,6 +25,30 @@
       <Nazev>SlovUKB.docx</Nazev>
    </Datace>
    <Datace>
+      <SlovniPopis>2. třetina 15. století</SlovniPopis>
+      <Stoleti>1400</Stoleti>
+      <PolovinaStoleti>2</PolovinaStoleti>
+      <Desetileti>7</Desetileti>
+      <Rok>0</Rok>
+      <RelativniChronologie>0</RelativniChronologie>
+      <NePredRokem>1434</NePredRokem>
+      <NePoRoce>1467</NePoRoce>
+     <ObdobiVzniku>1401–1450, 1451-1500</ObdobiVzniku>
+      <Nazev>SlovUKB_upravene_datum.docx</Nazev>
+   </Datace>
+   <Datace>
+      <SlovniPopis>3. třetina 15. století</SlovniPopis>
+      <Stoleti>1400</Stoleti>
+      <PolovinaStoleti>2</PolovinaStoleti>
+      <Desetileti>10</Desetileti>
+      <Rok>0</Rok>
+      <RelativniChronologie>0</RelativniChronologie>
+      <NePredRokem>1467</NePredRokem>
+      <NePoRoce>1500</NePoRoce>
+     <ObdobiVzniku>1401–1450, 1451-1500</ObdobiVzniku>
+      <Nazev>SlovUKB_druhe_upravene_datum.docx</Nazev>
+   </Datace>
+   <Datace>
       <SlovniPopis>10. léta 15. století</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -594,16 +618,16 @@
       <Nazev>PranostikaNova.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1795</SlovniPopis>
+      <SlovniPopis>1798</SlovniPopis>
       <Stoleti>1700</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
       <Desetileti>9</Desetileti>
-      <Rok>1795</Rok>
+      <Rok>1798</Rok>
       <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1795</NePredRokem>
-      <NePoRoce>1795</NePoRoce>
+      <NePredRokem>1798</NePredRokem>
+      <NePoRoce>1798</NePoRoce>
      <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Katechizmus.docx</Nazev>
+      <Nazev>Katechizmus_zmenene_datum.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1799</SlovniPopis>
@@ -629,18 +653,30 @@
      <ObdobiVzniku>1751–1800</ObdobiVzniku>
       <Nazev>Smrt_Abelova.docx</Nazev>
    </Datace>
-   <Datace>
-      <SlovniPopis>1806</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1806</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1806</NePredRokem>
-      <NePoRoce>1806</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Josef_Jungmann_Dvoji_rozmlouvani_o_jazyku_ceskem.docx</Nazev>
-   </Datace>
+  <Datace>
+    <SlovniPopis>1801</SlovniPopis>
+    <Stoleti>1800</Stoleti>
+    <PolovinaStoleti>1</PolovinaStoleti>
+    <Desetileti>0</Desetileti>
+    <Rok>1801</Rok>
+    <RelativniChronologie>1</RelativniChronologie>
+    <NePredRokem>1801</NePredRokem>
+    <NePoRoce>1801</NePoRoce>
+    <ObdobiVzniku>1801–1850</ObdobiVzniku>
+    <Nazev>Josef_Jungmann_Dvoji_rozmlouvani_o_jazyku_ceskem_upravene_datum.docx</Nazev>
+  </Datace>
+  <Datace>
+    <SlovniPopis>1802</SlovniPopis>
+    <Stoleti>1800</Stoleti>
+    <PolovinaStoleti>1</PolovinaStoleti>
+    <Desetileti>0</Desetileti>
+    <Rok>1802</Rok>
+    <RelativniChronologie>1</RelativniChronologie>
+    <NePredRokem>1802</NePredRokem>
+    <NePoRoce>1802</NePoRoce>
+    <ObdobiVzniku>1801–1850</ObdobiVzniku>
+    <Nazev>Josef_Jungmann_Dvoji_rozmlouvani_o_jazyku_ceskem_dalsi_upravene_datum.docx</Nazev>
+  </Datace>
    <Datace>
       <SlovniPopis>2. polovina 14. století</SlovniPopis>
       <Stoleti>1300</Stoleti>
