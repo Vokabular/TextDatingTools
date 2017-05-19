@@ -13,40 +13,40 @@
       <Nazev>AlxH.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1. polovina 15. století</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>0</Rok>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1401</NePredRokem>
-      <NePoRoce>1450</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>AdamM.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1. polovina 16. století</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>0</Rok>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1501</NePredRokem>
-      <NePoRoce>1550</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>KristF.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1. třetina 15. století</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
+      <Desetileti>4</Desetileti>
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1401</NePredRokem>
       <NePoRoce>1434</NePoRoce>
      <ObdobiVzniku>1401–1450</ObdobiVzniku>
       <Nazev>SlovUKB.docx</Nazev>
+   </Datace>
+   <Datace>
+      <SlovniPopis>2. třetina 15. století</SlovniPopis>
+      <Stoleti>1400</Stoleti>
+      <PolovinaStoleti>2</PolovinaStoleti>
+      <Desetileti>7</Desetileti>
+      <Rok>0</Rok>
+      <RelativniChronologie>0</RelativniChronologie>
+      <NePredRokem>1434</NePredRokem>
+      <NePoRoce>1467</NePoRoce>
+     <ObdobiVzniku>1401–1450, 1451-1500</ObdobiVzniku>
+      <Nazev>SlovUKB_upravene_datum.docx</Nazev>
+   </Datace>
+   <Datace>
+      <SlovniPopis>3. třetina 15. století</SlovniPopis>
+      <Stoleti>1400</Stoleti>
+      <PolovinaStoleti>2</PolovinaStoleti>
+      <Desetileti>10</Desetileti>
+      <Rok>0</Rok>
+      <RelativniChronologie>0</RelativniChronologie>
+      <NePredRokem>1467</NePredRokem>
+      <NePoRoce>1500</NePoRoce>
+     <ObdobiVzniku>1401–1450, 1451-1500</ObdobiVzniku>
+      <Nazev>SlovUKB_druhe_upravene_datum.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>10. léta 15. století</SlovniPopis>
@@ -85,18 +85,6 @@
       <Nazev>StitKlem.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1379</SlovniPopis>
-      <Stoleti>1300</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1379</Rok>
-      <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1379</NePredRokem>
-      <NePoRoce>1379</NePoRoce>
-     <ObdobiVzniku>1351–1400</ObdobiVzniku>
-      <Nazev>KarVaclB.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1380/1400</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -119,30 +107,6 @@
       <NePoRoce>1410</NePoRoce>
      <ObdobiVzniku>1401–1450</ObdobiVzniku>
       <Nazev>Vit.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1395</SlovniPopis>
-      <Stoleti>1300</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>9</Desetileti>
-      <Rok>1395</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1395</NePredRokem>
-      <NePoRoce>1395</NePoRoce>
-     <ObdobiVzniku>1351–1400</ObdobiVzniku>
-      <Nazev>KlarBohE.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1396</SlovniPopis>
-      <Stoleti>1300</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>9</Desetileti>
-      <Rok>1396</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1396</NePredRokem>
-      <NePoRoce>1396</NePoRoce>
-     <ObdobiVzniku>1351–1400</ObdobiVzniku>
-      <Nazev>RadKorA.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>14. a 15. století</SlovniPopis>
@@ -206,42 +170,6 @@
       <Nazev>HusAbec.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1413</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1413</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1413</NePredRokem>
-      <NePoRoce>1413</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>HusBlud.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1414</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1414</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1414</NePredRokem>
-      <NePoRoce>1414</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>HusDcerkaH.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1417</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1417</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1417</NePredRokem>
-      <NePoRoce>1417</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>BiblOl_Ap.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1426</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -302,42 +230,6 @@
       <Nazev>NikodA.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1443</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1443</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1443</NePredRokem>
-      <NePoRoce>1443</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>Astar.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1444</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1444</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1444</NePredRokem>
-      <NePoRoce>1444</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>LekKonMuz1.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1448</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1448</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1448</NePredRokem>
-      <NePoRoce>1448</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>Budys.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1455</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
@@ -348,18 +240,6 @@
       <NePoRoce>1455</NePoRoce>
      <ObdobiVzniku>1451–1500</ObdobiVzniku>
       <Nazev>ListKazimir.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1459</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>1459</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1459</NePredRokem>
-      <NePoRoce>1459</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>Dal_doplnek_Zebereruv.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1459/1463</SlovniPopis>
@@ -386,42 +266,6 @@
       <Nazev>BiblNymbPravopis.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1465</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1465</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1465</NePredRokem>
-      <NePoRoce>1465</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>AdamK.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1466</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1466</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1466</NePredRokem>
-      <NePoRoce>1466</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>KarVyklE.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1468</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1468</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1468</NePredRokem>
-      <NePoRoce>1468</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>PravJihlA.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1468 (?)</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
@@ -433,18 +277,6 @@
       <NePoRoce>1468</NePoRoce>
      <ObdobiVzniku>1451–1500</ObdobiVzniku>
       <Nazev>TrojTA.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1469</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1469</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1469</NePredRokem>
-      <NePoRoce>1469</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>HusZrcMen.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1470</SlovniPopis>
@@ -469,30 +301,6 @@
       <NePoRoce>1471</NePoRoce>
      <ObdobiVzniku>1451–1500</ObdobiVzniku>
       <Nazev>AsenSJosef.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1472</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1472</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1472</NePredRokem>
-      <NePoRoce>1472</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>ApolBaw.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1473</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1473</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1473</NePredRokem>
-      <NePoRoce>1473</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>GestaM.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1476 (?)</SlovniPopis>
@@ -544,18 +352,6 @@
       <Nazev>PasKal.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1497</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>9</Desetileti>
-      <Rok>1497</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1497</NePredRokem>
-      <NePoRoce>1497</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>KristE.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1498</SlovniPopis>
       <Stoleti>1400</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
@@ -590,18 +386,6 @@
       <NePoRoce>1500</NePoRoce>
      <ObdobiVzniku>1451–1500</ObdobiVzniku>
       <Nazev>Gesta.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1502</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1502</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1502</NePredRokem>
-      <NePoRoce>1502</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Albetanus_Knizky_o_radnem_mluveni.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1502 (?)</SlovniPopis>
@@ -641,174 +425,6 @@
       <Nazev>Vespucci_Spis_o_novych_zemich.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1506</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1506</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1506</NePredRokem>
-      <NePoRoce>1506</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>CernyMor1506.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1508</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1508</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1508</NePredRokem>
-      <NePoRoce>1508</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>ChelcLid.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1509</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1509</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1509</NePredRokem>
-      <NePoRoce>1509</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>HusKuch.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1514</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1514</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1514</NePredRokem>
-      <NePoRoce>1514</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>KnizSrd.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1515</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1515</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1515</NePredRokem>
-      <NePoRoce>1515</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>KonacLichva.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1516</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1516</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1516</NePredRokem>
-      <NePoRoce>1516</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Piccolomini.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1517</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1517</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1517</NePredRokem>
-      <NePoRoce>1517</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Cerny_Herbar_aneb_zelinar.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1518</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1518</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1518</NePredRokem>
-      <NePoRoce>1518</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>CernyMor1518.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1520</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1520</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1520</NePredRokem>
-      <NePoRoce>1520</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Ezop_lat.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1521</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1521</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1521</NePredRokem>
-      <NePoRoce>1521</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>ChelcSit.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1524</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1524</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1524</NePredRokem>
-      <NePoRoce>1524</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Zrizeni_o_rucnicich.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1527</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1527</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1527</NePredRokem>
-      <NePoRoce>1527</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>LekKonT1.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1528</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1528</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1528</NePredRokem>
-      <NePoRoce>1528</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>PravHor.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1529</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1529</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1529</NePredRokem>
-      <NePoRoce>1529</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Angelsky_pot.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1531–1533</SlovniPopis>
       <Stoleti>1500</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -819,18 +435,6 @@
       <NePoRoce>1533</NePoRoce>
      <ObdobiVzniku>1501–1550</ObdobiVzniku>
       <Nazev>PravKonsel_I-A-14.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1532</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1532</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1532</NePredRokem>
-      <NePoRoce>1532</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>ChocPousteni1532.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1532–1554</SlovniPopis>
@@ -845,138 +449,6 @@
       <Nazev>Pseudo_Aristoteles.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1538</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1538</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1538</NePredRokem>
-      <NePoRoce>1538</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Hanus.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1539</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1539</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1539</NePredRokem>
-      <NePoRoce>1539</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>CestKabD.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1542</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1542</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1542</NePredRokem>
-      <NePoRoce>1542</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>CestKabS.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1545</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1545</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1545</NePredRokem>
-      <NePoRoce>1545</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>HusProv.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1546</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1546</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1546</NePredRokem>
-      <NePoRoce>1546</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>Augustin.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1551–1553</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>1553</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1550</NePredRokem>
-      <NePoRoce>1553</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Dopisy_Dorota_z_Krumlova.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1551</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>1551</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1551</NePredRokem>
-      <NePoRoce>1551</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Sud_Novina.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1552</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>1552</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1552</NePredRokem>
-      <NePoRoce>1552</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>VocehMor.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1554</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>1554</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1554</NePredRokem>
-      <NePoRoce>1554</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>LekKonNK2.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1561</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1561</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1561</NePredRokem>
-      <NePoRoce>1561</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>RegimentOvci.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1562</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1562</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1562</NePredRokem>
-      <NePoRoce>1562</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Hajek_z_Hajku_Herbar.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1567–1586</SlovniPopis>
       <Stoleti>1500</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
@@ -987,54 +459,6 @@
       <NePoRoce>1586</NePoRoce>
      <ObdobiVzniku>1551–1600</ObdobiVzniku>
       <Nazev>Dopisy_Anna_z_Litomeric.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1568</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1568</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1568</NePredRokem>
-      <NePoRoce>1568</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>AlbikReg.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1571</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1571</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1571</NePredRokem>
-      <NePoRoce>1571</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Hemming.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1574</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1574</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1574</NePredRokem>
-      <NePoRoce>1574</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Noviny_straslive.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1578</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1578</Rok>
-      <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1578</NePredRokem>
-      <NePoRoce>1578</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>SubarKaz.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1578 nebo 1579 (?)</SlovniPopis>
@@ -1049,18 +473,6 @@
       <Nazev>Portugal.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1581</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>8</Desetileti>
-      <Rok>1581</Rok>
-      <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1581</NePredRokem>
-      <NePoRoce>1581</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Hajek_z_Libocan_Snar.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1583–1598</SlovniPopis>
       <Stoleti>1500</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
@@ -1071,30 +483,6 @@
       <NePoRoce>1598</NePoRoce>
      <ObdobiVzniku>1551–1600</ObdobiVzniku>
       <Nazev>Dopisy_Judit_Eibenstolerova_z_Eibenstolu.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1586</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>8</Desetileti>
-      <Rok>1586</Rok>
-      <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1586</NePredRokem>
-      <NePoRoce>1586</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Rokycana.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1588</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>8</Desetileti>
-      <Rok>1588</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1588</NePredRokem>
-      <NePoRoce>1588</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Venik.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1588–1600</SlovniPopis>
@@ -1109,54 +497,6 @@
       <Nazev>Dopisy_Katerina_z_Kladna.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1589</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>8</Desetileti>
-      <Rok>1589</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1589</NePredRokem>
-      <NePoRoce>1589</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Dvoje_noviny.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1594</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>9</Desetileti>
-      <Rok>1594</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1594</NePredRokem>
-      <NePoRoce>1594</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>JAK_Haggaeus_redivivus.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1597</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>9</Desetileti>
-      <Rok>1597</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1597</NePredRokem>
-      <NePoRoce>1597</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Chelcicky.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>16. století</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1501</NePredRokem>
-      <NePoRoce>1600</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>ZizkaRad.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1601–1609</SlovniPopis>
       <Stoleti>1600</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -1167,102 +507,6 @@
       <NePoRoce>1609</NePoRoce>
      <ObdobiVzniku>1601–1650</ObdobiVzniku>
       <Nazev>Dopisy_Vorsila_Tachovska.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1603</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1603</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1603</NePredRokem>
-      <NePoRoce>1603</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>ListVelKsaft.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1605</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1605</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1605</NePredRokem>
-      <NePoRoce>1605</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>Lamentace.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1609</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1609</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1609</NePredRokem>
-      <NePoRoce>1609</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>PisZalost.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1611</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1611</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1611</NePredRokem>
-      <NePoRoce>1611</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>Historia_o_zivotu_doktora_Jana_Fausta.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1612</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1612</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1612</NePredRokem>
-      <NePoRoce>1612</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>DivVelik.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1613</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1613</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1613</NePredRokem>
-      <NePoRoce>1613</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>BiblKral.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1615</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1615</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1615</NePredRokem>
-      <NePoRoce>1615</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>O_Ctnych_manzelkach_tehotnych.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1619</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1619</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1619</NePredRokem>
-      <NePoRoce>1619</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>BrezKron.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1619–1653</SlovniPopis>
@@ -1277,30 +521,6 @@
       <Nazev>Kocmanek_Pameti.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1620</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1620</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1620</NePredRokem>
-      <NePoRoce>1620</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>DacProstopravda.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1622</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1622</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1622</NePredRokem>
-      <NePoRoce>1622</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>JAK_Nedobytedlny_hrad_Jmeno_Hospodinovo.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1622 a 1624</SlovniPopis>
       <Stoleti>1600</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -1310,30 +530,6 @@
       <NePredRokem>1622</NePredRokem>
       <NePoRoce>1624</NePoRoce><ObdobiVzniku>1601–1650</ObdobiVzniku>
      <Nazev>JAK_Truchlivy.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1624</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1624</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1624</NePredRokem>
-      <NePoRoce>1624</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>JAK_O_sirobe.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1626</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1626</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1626</NePredRokem>
-      <NePoRoce>1626</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>Mikulas_Dacicky_z_Heslova_Pameti.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1631 (?)</SlovniPopis>
@@ -1347,18 +543,6 @@
       <NePoRoce>1631</NePoRoce>
      <ObdobiVzniku>1601–1650</ObdobiVzniku>
       <Nazev>JAK_Otazky_nektere_o_Jednote_Bratri_Ceskych.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1633</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1633</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1633</NePredRokem>
-      <NePoRoce>1633</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>JAK_Dvere.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1645–1648</SlovniPopis>
@@ -1375,7 +559,7 @@
    <Datace>
       <SlovniPopis>1650</SlovniPopis>
       <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
+      <PolovinaStoleti>1</PolovinaStoleti>
       <Desetileti>5</Desetileti>
       <Rok>1650</Rok>
       <RelativniChronologie>5</RelativniChronologie>
@@ -1397,88 +581,16 @@
       <Nazev>JAK_Zprava_a_nauceni_o_kazatelstvi.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1660</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1660</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1660</NePredRokem>
-      <NePoRoce>1660</NePoRoce>
-     <ObdobiVzniku>1651–1700</ObdobiVzniku>
-      <Nazev>JAK_Strucna_historie_cirkve_slovanske.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1668</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1668</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1668</NePredRokem>
-      <NePoRoce>1668</NePoRoce>
-     <ObdobiVzniku>1651–1700</ObdobiVzniku>
-      <Nazev>Stejer_Zacek.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1673</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1673</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1673</NePredRokem>
-      <NePoRoce>1673</NePoRoce>
-     <ObdobiVzniku>1651–1700</ObdobiVzniku>
-      <Nazev>Daniel_Vetter_Islandia.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1696</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>9</Desetileti>
-      <Rok>1696</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1696</NePredRokem>
-      <NePoRoce>1696</NePoRoce>
-     <ObdobiVzniku>1651–1700</ObdobiVzniku>
-      <Nazev>Masnik_Zprava_pisma_slovenskeho.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1701</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1701</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1701</NePredRokem>
-      <NePoRoce>1701</NePoRoce>
-     <ObdobiVzniku>1701–1750</ObdobiVzniku>
-      <Nazev>Navstiveni.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>1751–1775</SlovniPopis>
       <Stoleti>1700</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
       <Desetileti>7</Desetileti>
       <Rok>1775</Rok>
       <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1750</NePredRokem>
+      <NePredRokem>1751</NePredRokem>
       <NePoRoce>1775</NePoRoce>
      <ObdobiVzniku>1751–1800</ObdobiVzniku>
       <Nazev>Lucidar1750.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1753</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>5</Desetileti>
-      <Rok>1753</Rok>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1753</NePredRokem>
-      <NePoRoce>1753</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Sepsani_ctnostneho_zivota_svateho_Vendelina.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1760 (?)</SlovniPopis>
@@ -1506,76 +618,16 @@
       <Nazev>PranostikaNova.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>1763</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1763</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1763</NePredRokem>
-      <NePoRoce>1763</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Kucharka.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1766</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>6</Desetileti>
-      <Rok>1766</Rok>
-      <RelativniChronologie>6</RelativniChronologie>
-      <NePredRokem>1766</NePredRokem>
-      <NePoRoce>1766</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>PranostikaSedlsk.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1777</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>7</Desetileti>
-      <Rok>1777</Rok>
-      <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1777</NePredRokem>
-      <NePoRoce>1777</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Mitrovic_Prihody.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1783</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>8</Desetileti>
-      <Rok>1783</Rok>
-      <RelativniChronologie>7</RelativniChronologie>
-      <NePredRokem>1783</NePredRokem>
-      <NePoRoce>1783</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Agenda.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1789</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>8</Desetileti>
-      <Rok>1789</Rok>
-      <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1789</NePredRokem>
-      <NePoRoce>1789</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>PisNepom1789.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1795</SlovniPopis>
+      <SlovniPopis>1798</SlovniPopis>
       <Stoleti>1700</Stoleti>
       <PolovinaStoleti>2</PolovinaStoleti>
       <Desetileti>9</Desetileti>
-      <Rok>1795</Rok>
+      <Rok>1798</Rok>
       <RelativniChronologie>8</RelativniChronologie>
-      <NePredRokem>1795</NePredRokem>
-      <NePoRoce>1795</NePoRoce>
+      <NePredRokem>1798</NePredRokem>
+      <NePoRoce>1798</NePoRoce>
      <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Katechizmus.docx</Nazev>
+      <Nazev>Katechizmus_zmenene_datum.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>1799</SlovniPopis>
@@ -1591,112 +643,40 @@
    </Datace>
    <Datace>
       <SlovniPopis>1800</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
+      <Stoleti>1700</Stoleti>
+      <PolovinaStoleti>2</PolovinaStoleti>
+      <Desetileti>10</Desetileti>
       <Rok>1800</Rok>
       <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1801</NePredRokem>
+      <NePredRokem>1800</NePredRokem>
       <NePoRoce>1800</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
+     <ObdobiVzniku>1751–1800</ObdobiVzniku>
       <Nazev>Smrt_Abelova.docx</Nazev>
    </Datace>
-   <Datace>
-      <SlovniPopis>1806</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1806</Rok>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1806</NePredRokem>
-      <NePoRoce>1806</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Josef_Jungmann_Dvoji_rozmlouvani_o_jazyku_ceskem.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1817</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1817</Rok>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1817</NePredRokem>
-      <NePoRoce>1817</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Jaks_Kazani.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1827</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1827</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1827</NePredRokem>
-      <NePoRoce>1827</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Josef_Jungmann_O_klasicnosti_literatury.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1832</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1832</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1832</NePredRokem>
-      <NePoRoce>1832</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Josef_Jungmann_O_ruzneni_ceskeho_pisemniho_jazyka.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1833</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1833</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1833</NePredRokem>
-      <NePoRoce>1833</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Minyde_Stinani_haviru.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1835</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>3</Desetileti>
-      <Rok>1835</Rok>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1835</NePredRokem>
-      <NePoRoce>1835</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Minyde_Pribehy_Podebrad.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>1841</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>4</Desetileti>
-      <Rok>1841</Rok>
-      <RelativniChronologie>4</RelativniChronologie>
-      <NePredRokem>1841</NePredRokem>
-      <NePoRoce>1841</NePoRoce>
-     <ObdobiVzniku>1801–1850</ObdobiVzniku>
-      <Nazev>Jaromirek.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>19. století</SlovniPopis>
-      <Stoleti>1800</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1801</NePredRokem>
-      <NePoRoce>1900</NePoRoce>
-     <ObdobiVzniku>1851–1900</ObdobiVzniku>
-      <Nazev>JAK_Fortius_redivivus_preklad.docx</Nazev>
-   </Datace>
+  <Datace>
+    <SlovniPopis>1801</SlovniPopis>
+    <Stoleti>1800</Stoleti>
+    <PolovinaStoleti>1</PolovinaStoleti>
+    <Desetileti>0</Desetileti>
+    <Rok>1801</Rok>
+    <RelativniChronologie>1</RelativniChronologie>
+    <NePredRokem>1801</NePredRokem>
+    <NePoRoce>1801</NePoRoce>
+    <ObdobiVzniku>1801–1850</ObdobiVzniku>
+    <Nazev>Josef_Jungmann_Dvoji_rozmlouvani_o_jazyku_ceskem_upravene_datum.docx</Nazev>
+  </Datace>
+  <Datace>
+    <SlovniPopis>1802</SlovniPopis>
+    <Stoleti>1800</Stoleti>
+    <PolovinaStoleti>1</PolovinaStoleti>
+    <Desetileti>0</Desetileti>
+    <Rok>1802</Rok>
+    <RelativniChronologie>1</RelativniChronologie>
+    <NePredRokem>1802</NePredRokem>
+    <NePoRoce>1802</NePoRoce>
+    <ObdobiVzniku>1801–1850</ObdobiVzniku>
+    <Nazev>Josef_Jungmann_Dvoji_rozmlouvani_o_jazyku_ceskem_dalsi_upravene_datum.docx</Nazev>
+  </Datace>
    <Datace>
       <SlovniPopis>2. polovina 14. století</SlovniPopis>
       <Stoleti>1300</Stoleti>
@@ -1708,18 +688,6 @@
       <NePoRoce>1400</NePoRoce>
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>AlxO.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>2. polovina 15. století</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>10</Desetileti>
-      <Rok>0</Rok>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1451</NePredRokem>
-      <NePoRoce>1500</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>CestMil.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>2. polovina 17. století nebo začátek 18. století</SlovniPopis>
@@ -1735,21 +703,9 @@
       <Nazev>Enspigl.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>2. polovina 18. století</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
-      <Desetileti>10</Desetileti>
-      <Rok>0</Rok>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1751</NePredRokem>
-      <NePoRoce>1800</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>LekKonT3.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>2. čtvrtina 15. století</SlovniPopis>
       <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>2</PolovinaStoleti>
+      <PolovinaStoleti>1</PolovinaStoleti>
       <Desetileti>5</Desetileti>
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
@@ -1766,7 +722,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1420</NePredRokem>
-      <NePoRoce>1430</NePoRoce>
+      <NePoRoce>1429</NePoRoce>
      <ObdobiVzniku>1401–1450</ObdobiVzniku>
       <Nazev>KazDzikSct.docx</Nazev>
    </Datace>
@@ -1802,7 +758,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1360</NePredRokem>
-      <NePoRoce>1370</NePoRoce>
+      <NePoRoce>1369</NePoRoce>
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>DesHrad.docx</Nazev>
    </Datace>
@@ -1814,7 +770,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1560</NePredRokem>
-      <NePoRoce>1580</NePoRoce>
+      <NePoRoce>1579</NePoRoce>
      <ObdobiVzniku>1551–1600</ObdobiVzniku>
       <Nazev>Dopisy_Dorota_z_Krumlova_u_Svateho_Jiri.docx</Nazev>
    </Datace>
@@ -1826,7 +782,7 @@
       <Rok>0</Rok>
       <RelativniChronologie>0</RelativniChronologie>
       <NePredRokem>1380</NePredRokem>
-      <NePoRoce>1390</NePoRoce>
+      <NePoRoce>1389</NePoRoce>
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>ModlMil_cast.docx</Nazev>
    </Datace>
@@ -1845,7 +801,7 @@
       <SlovniPopis>konec 13. století</SlovniPopis>
       <Stoleti>1200</Stoleti>
       <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
+      <Desetileti>10</Desetileti>
       <Rok>0</Rok>
       <Upresneni>konec</Upresneni>
       <RelativniChronologie>9</RelativniChronologie>
@@ -1853,45 +809,6 @@
       <NePoRoce>1300</NePoRoce>
      <ObdobiVzniku>1251–1300</ObdobiVzniku>
       <Nazev>PisOstr.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>konec 14. století</SlovniPopis>
-      <Stoleti>1300</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>konec</Upresneni>
-      <RelativniChronologie>9</RelativniChronologie>
-      <NePredRokem>1385</NePredRokem>
-      <NePoRoce>1400</NePoRoce>
-     <ObdobiVzniku>1351–1400</ObdobiVzniku>
-      <Nazev>Andeliku_rozkochany.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>konec 15. století</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>konec</Upresneni>
-      <RelativniChronologie>9</RelativniChronologie>
-      <NePredRokem>1485</NePredRokem>
-      <NePoRoce>1500</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>Lek_O_pousteni_krve.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>konec 18. století</SlovniPopis>
-      <Stoleti>1700</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>konec</Upresneni>
-      <RelativniChronologie>9</RelativniChronologie>
-      <NePredRokem>1785</NePredRokem>
-      <NePoRoce>1800</NePoRoce>
-     <ObdobiVzniku>1751–1800</ObdobiVzniku>
-      <Nazev>Krasna.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>okolo roku 1400</SlovniPopis>
@@ -1959,32 +876,6 @@
       <Nazev>BrezSnarM.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>okolo roku 1500</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>1500</Rok>
-      <Upresneni>okolo roku</Upresneni>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1497</NePredRokem>
-      <NePoRoce>1503</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>BechNeub.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>okolo roku 1518</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>1</Desetileti>
-      <Rok>1518</Rok>
-      <Upresneni>okolo roku</Upresneni>
-      <RelativniChronologie>2</RelativniChronologie>
-      <NePredRokem>1515</NePredRokem>
-      <NePoRoce>1521</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>LetTrub.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>po roce 1623</SlovniPopis>
       <Stoleti>1600</Stoleti>
       <PolovinaStoleti>1</PolovinaStoleti>
@@ -1996,19 +887,6 @@
       <NePoRoce>1626</NePoRoce>
      <ObdobiVzniku>1601–1650</ObdobiVzniku>
       <Nazev>Harant_Pameti.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>po roce 1628</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>1</PolovinaStoleti>
-      <Desetileti>2</Desetileti>
-      <Rok>1628</Rok>
-      <Upresneni>po roce</Upresneni>
-      <RelativniChronologie>3</RelativniChronologie>
-      <NePredRokem>1628</NePredRokem>
-      <NePoRoce>1631</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>JAK_Didaktika.docx</Nazev>
    </Datace>
    <Datace>
       <SlovniPopis>polovina 14. století</SlovniPopis>
@@ -2023,32 +901,7 @@
      <ObdobiVzniku>1351–1400</ObdobiVzniku>
       <Nazev>AlxB.docx</Nazev>
    </Datace>
-   <Datace>
-      <SlovniPopis>polovina 15. století</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>polovina</Upresneni>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1438</NePredRokem>
-      <NePoRoce>1488</NePoRoce>
-     <ObdobiVzniku>1451–1500</ObdobiVzniku>
-      <Nazev>AdamF.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>polovina 16. století</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>polovina</Upresneni>
-      <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1538</NePredRokem>
-      <NePoRoce>1588</NePoRoce>
-     <ObdobiVzniku>1551–1600</ObdobiVzniku>
-      <Nazev>Ezop_cesky_interlinearni preklad.docx</Nazev>
-   </Datace>
+   <!-- TODO: latinu neřešit v rámci češtiny -->
    <Datace>
       <SlovniPopis>post 1416, ante 1450</SlovniPopis>
       <Stoleti>1400</Stoleti>
@@ -2057,8 +910,8 @@
       <Rok>1450</Rok>
       <Upresneni>post; ante</Upresneni>
       <RelativniChronologie>5</RelativniChronologie>
-      <NePredRokem>1416</NePredRokem>
-      <NePoRoce>1450</NePoRoce>
+      <NePredRokem>1417</NePredRokem>
+      <NePoRoce>1449</NePoRoce>
      <ObdobiVzniku>1401–1450</ObdobiVzniku>
       <Nazev>KapPraz_H10_270v.docx</Nazev>
    </Datace>
@@ -2076,45 +929,6 @@
       <Nazev>PripJir.docx</Nazev>
    </Datace>
    <Datace>
-      <SlovniPopis>přelom 14. a 15. století</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>přelom</Upresneni>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1390</NePredRokem>
-      <NePoRoce>1410</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>LekNeduh.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>přelom 15. a 16. století</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>přelom</Upresneni>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1490</NePredRokem>
-      <NePoRoce>1510</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>NaucRod.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>přelom 16. a 17. století</SlovniPopis>
-      <Stoleti>1600</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>přelom</Upresneni>
-      <RelativniChronologie>0</RelativniChronologie>
-      <NePredRokem>1590</NePredRokem>
-      <NePoRoce>1610</NePoRoce>
-     <ObdobiVzniku>1601–1650</ObdobiVzniku>
-      <Nazev>Donin_Cestopis.docx</Nazev>
-   </Datace>
-   <Datace>
       <SlovniPopis>začátek 13. století</SlovniPopis>
       <Stoleti>1200</Stoleti>
       <PolovinaStoleti>0</PolovinaStoleti>
@@ -2126,44 +940,5 @@
       <NePoRoce>1215</NePoRoce>
      <ObdobiVzniku>1201–1250</ObdobiVzniku>
       <Nazev>ListLit.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>začátek 14. století</SlovniPopis>
-      <Stoleti>1300</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>začátek</Upresneni>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1301</NePredRokem>
-      <NePoRoce>1315</NePoRoce>
-     <ObdobiVzniku>1301–1350</ObdobiVzniku>
-      <Nazev>ModlKunh.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>začátek 15. století</SlovniPopis>
-      <Stoleti>1400</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>začátek</Upresneni>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1401</NePredRokem>
-      <NePoRoce>1415</NePoRoce>
-     <ObdobiVzniku>1401–1450</ObdobiVzniku>
-      <Nazev>AlxV.docx</Nazev>
-   </Datace>
-   <Datace>
-      <SlovniPopis>začátek 16. století</SlovniPopis>
-      <Stoleti>1500</Stoleti>
-      <PolovinaStoleti>0</PolovinaStoleti>
-      <Desetileti>0</Desetileti>
-      <Rok>0</Rok>
-      <Upresneni>začátek</Upresneni>
-      <RelativniChronologie>1</RelativniChronologie>
-      <NePredRokem>1501</NePredRokem>
-      <NePoRoce>1515</NePoRoce>
-     <ObdobiVzniku>1501–1550</ObdobiVzniku>
-      <Nazev>CestKabK.docx</Nazev>
    </Datace>
 </Data>
