@@ -69,15 +69,15 @@ namespace Daliboris.Texty.Evidence
             mgdcTexty.Add(csPost, csPost);
         }
 
-        protected static DateTimeFormatInfo DefaultLocale = CultureInfo.InstalledUICulture.DateTimeFormat;
-        public DateTimeFormatInfo Locale { get; }
+        protected static CultureInfo DefaultCultureInfo = CultureInfo.InstalledUICulture;
+        public CultureInfo CultureInfo { get; set; }
 
-        public AnalyzatorDatace(DateTimeFormatInfo locale = null)
+        public AnalyzatorDatace(CultureInfo cultureInfo = null)
         {
             // nabízí mi to syntaktickou zkratku "Lokalizace = lokalizace ?? VychoziLokalizace", ale ta pro mě není čitelná
-            Locale = locale;
-            if (Locale == null)
-                Locale = DefaultLocale;
+            CultureInfo = cultureInfo;
+            if (CultureInfo == null)
+                CultureInfo = DefaultCultureInfo;
         }
 
         public string UrcitObdobiVzniku(IDatace mdtcDatace)
@@ -106,7 +106,7 @@ namespace Daliboris.Texty.Evidence
             17th Century::2nd half (1650 - 1699)
 
             Eagle/Europeana (https://www.eagle-network.eu/resources/vocabularies/dates/; https://www.eagle-network.eu/voc/dates/lod/291.html)
-            
+
             first half of II CE; 0101 ; 0150
             second half of II CE; 0151 ; 0200
             third quarter of II AD: 0151 ; 0175
@@ -153,7 +153,6 @@ namespace Daliboris.Texty.Evidence
             */
 
             /*
-             * 
              * https://developers.google.com/chart/interactive/docs/gallery/timeline
              * google.charts.load("current", {packages:["timeline"]});
   google.charts.setOnLoadCallback(drawChart);
@@ -221,7 +220,7 @@ namespace Daliboris.Texty.Evidence
         private Datace AnalyzujDataci2(string sSlovniPopis)
         {
             char[] chOddelovace = new char[] { '/', '–', ',' };
-            Datace dt = new Datace();
+            var dt = new Datace(CultureInfo);
             List<string> glsCoObsahuje = new List<string>();
             List<string> glsNeznamaSlova = new List<string>();
             ZjistiObsahANeznamaSlova(sSlovniPopis, ref glsCoObsahuje, ref glsNeznamaSlova);
@@ -270,8 +269,8 @@ namespace Daliboris.Texty.Evidence
                 string zacatek = asRozhrani[0].Trim();
                 if (asRozhrani[1].Contains(csLeta) && !asRozhrani[0].Contains(csLeta))
                     zacatek = zacatek + asRozhrani[1].Substring(asRozhrani[1].IndexOf(csLeta, StringComparison.Ordinal) + 1);
-                Datace dtZacatek = new Datace(zacatek.Trim());
-                Datace dtKonec = new Datace(asRozhrani[1].Trim());
+                Datace dtZacatek = new Datace(zacatek.Trim(), CultureInfo);
+                Datace dtKonec = new Datace(asRozhrani[1].Trim(), CultureInfo);
                 dt = dtKonec;
                 dt.NePredRokem = dtZacatek.NePredRokem;
                 if (dtZacatek.Upresneni != null)
@@ -291,7 +290,7 @@ namespace Daliboris.Texty.Evidence
                 sPopis = sPopis.Remove(sPopis.IndexOf(csPrelom), csPrelom.Length + 1);
                 asRozhrani = sPopis.Split(new string[] { " a " }, StringSplitOptions.RemoveEmptyEntries);
                 dt.RelativniChronologie = 0;
-                Datace dtKonec = new Datace(asRozhrani[1]);
+                Datace dtKonec = new Datace(asRozhrani[1], CultureInfo);
                 Datace dtZacatek = new Datace();
                 dtZacatek.Stoleti = dtKonec.Stoleti - cintStoLet;
                 dtZacatek.RelativniChronologie = 9;
@@ -465,8 +464,8 @@ namespace Daliboris.Texty.Evidence
                     string zacatek = asRozhrani[0].Trim();
                     if (asRozhrani[1].Contains(csLeta) && !asRozhrani[0].Contains(csLeta))
                         zacatek = zacatek + asRozhrani[1].Substring(asRozhrani[1].IndexOf(csLeta, StringComparison.Ordinal) + 1);
-                    Datace dtZacatek = new Datace(zacatek.Trim());
-                    Datace dtKonec = new Datace(asRozhrani[1].Trim());
+                    Datace dtZacatek = new Datace(zacatek.Trim(), CultureInfo);
+                    Datace dtKonec = new Datace(asRozhrani[1].Trim(), CultureInfo);
                     dt = dtKonec;
                     dt.NePredRokem = dtZacatek.NePredRokem;
                     if (dtZacatek.Upresneni != null)
@@ -486,7 +485,7 @@ namespace Daliboris.Texty.Evidence
             {
                 int iRok;
                 DateTime date;
-                if (DateTime.TryParse(sPopis, Locale, DateTimeStyles.None, out date))
+                if (DateTime.TryParse(sPopis, CultureInfo, DateTimeStyles.None, out date))
                 {
                     iRok = date.Year;
                     UrciDataciNaZakladeRoku(dt, iRok);
